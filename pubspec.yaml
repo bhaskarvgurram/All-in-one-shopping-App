@@ -1,0 +1,192 @@
+name: all_in_one_shopping
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.3+4
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share: ^0.5.3
+  flutter_custom_tabs: ^0.4.0
+  flutter_webview_plugin: ^0.2.1+2
+  flutter_launcher_icons: "^0.6.1"
+
+flutter_icons:
+  android: true 
+  ios: false
+  image_path: "lib/assets/logo/logo.png"
+  image_path_android: "lib/assets/logo/logo.png" 
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - lib/assets/images/ab-min.png
+   - lib/assets/images/abof-min.png
+   - lib/assets/images/ai-min.png
+   - lib/assets/images/airbnb-min.png
+   - lib/assets/images/aircel-min.png
+   - lib/assets/images/airtel-min.png
+   - lib/assets/images/ajio-min.png
+   - lib/assets/images/amazon-min.png
+   - lib/assets/images/anow-min.png
+   - lib/assets/images/archie-min.png
+   - lib/assets/images/bata-min.png
+   - lib/assets/images/bigbasket-min.png
+   - lib/assets/images/bk-min.png
+   - lib/assets/images/bmf-min.png
+   - lib/assets/images/bms-min.png
+   - lib/assets/images/cheap-min.png
+   - lib/assets/images/cinemax-min.png
+   - lib/assets/images/cleartrip-min.png
+   - lib/assets/images/clickindia-min.png
+   - lib/assets/images/clovia-min.png
+   - lib/assets/images/croma-min.png
+   - lib/assets/images/decathlon-min.png
+   - lib/assets/images/dominos-min.png
+   - lib/assets/images/elusivelane-min.png
+   - lib/assets/images/faasos-min.png
+   - lib/assets/images/fashion-min.png
+   - lib/assets/images/fc-min.png
+   - lib/assets/images/fern-min.png
+   - lib/assets/images/ff-min.png
+   - lib/assets/images/flintobox-min.png
+   - lib/assets/images/flipkart-min.png
+   - lib/assets/images/foodpanda-min.png
+   - lib/assets/images/freecharge-min.png
+   - lib/assets/images/freshmenu-min.png
+   - lib/assets/images/goibibo-min.png
+   - lib/assets/images/grofers-min.png
+   - lib/assets/images/hf-min.png
+   - lib/assets/images/homeshop-min.png
+   - lib/assets/images/housefull-min.png
+   - lib/assets/images/hs-min.png
+   - lib/assets/images/idea-min.png
+   - lib/assets/images/indigo-min.png
+   - lib/assets/images/infibeam-min.png
+   - lib/assets/images/innerchef-min.png
+   - lib/assets/images/inox-min.png
+   - lib/assets/images/irctc-min.png 
+   - lib/assets/images/ixigo-min.png
+   - lib/assets/images/jabong-min.png
+   - lib/assets/images/jd-min.png
+   - lib/assets/images/jet-min.png
+   - lib/assets/images/justrechargeit-min.png
+   - lib/assets/images/kfc-min.png
+   - lib/assets/images/koovs-min.png
+   - lib/assets/images/lensbazaar-min.png
+   - lib/assets/images/lenskart-min.png
+   - lib/assets/images/lensmart-min.png 
+   - lib/assets/images/limeroad-min.png
+   - lib/assets/images/mcd-min.png
+   - lib/assets/images/mchemist-min.png
+   - lib/assets/images/medlife-min.png
+   - lib/assets/images/medplus-min.png
+   - lib/assets/images/mg-min.png
+   - lib/assets/images/mi-min.png
+   - lib/assets/images/mmt-min.png
+   - lib/assets/images/mobikwik-min.png
+   - lib/assets/images/myntra-min.png
+   - lib/assets/images/nature-min.png
+   - lib/assets/images/nearbuy-min.png
+   - lib/assets/images/netmeds-min.png
+   - lib/assets/images/nykaa-min.png
+   - lib/assets/images/olx-min.png
+   - lib/assets/images/oneindia-min.png
+   - lib/assets/images/oxigen-min.png 
+   - lib/assets/images/oyo-min.png
+   - lib/assets/images/paytm-min.png
+   - lib/assets/images/paytmmall-min.png
+   - lib/assets/images/pf-min.png
+   - lib/assets/images/pharmeasy-min.png
+   - lib/assets/images/pizzahut-min.png
+   - lib/assets/images/printland-min.png
+   - lib/assets/images/printvenue-min.png
+   - lib/assets/images/purplle-min.png
+   - lib/assets/images/pvr-min.png
+   - lib/assets/images/quikr-min.png
+   - lib/assets/images/rechargeitnow-min.png
+   - lib/assets/images/redbus-min.png
+   - lib/assets/images/rediff-min.png
+   - lib/assets/images/reliance-min.png
+   - lib/assets/images/shopcj-min.png
+   - lib/assets/images/shop-min.png
+   - lib/assets/images/snapdeal-min.png
+   - lib/assets/images/ss-min.png
+   - lib/assets/images/swiggy-min.png
+   - lib/assets/images/talkcharge-min.png
+   - lib/assets/images/tatadocomo-min.png
+   - lib/assets/images/tata-min.png
+   - lib/assets/images/telenor-min.png
+   - lib/assets/images/tg-min.png
+   - lib/assets/images/ticket-min.png
+   - lib/assets/images/tripadvisor-min.png
+   - lib/assets/images/trivago-min.png
+   - lib/assets/images/ul-min.png
+   - lib/assets/images/via-min.png
+   - lib/assets/images/vista-min.png
+   - lib/assets/images/vodafone-min.png
+   - lib/assets/images/voonik1-min.png
+   - lib/assets/images/voonik-min.png
+   - lib/assets/images/yatra-min.png
+   - lib/assets/images/yepme-min.png
+   - lib/assets/images/zivame-min.png
+   - lib/assets/images/zomato-min.png
+   - lib/assets/images/zop-min.png
+   
+
+   
+   - lib/assets/images/flipkart-min.png 
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
